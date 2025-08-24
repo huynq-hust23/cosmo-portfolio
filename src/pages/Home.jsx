@@ -1,8 +1,11 @@
-const Home = () => {
-    return 
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+import ThemeToggles from "../components/ThemeToggles";
 
-    </div>
+const Home = () => {
+    return (
+        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+            <ThemeToggles />
+        </div>
+    );
 }
 
 export default Home;

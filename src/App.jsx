@@ -3,13 +3,14 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
-  return
-  <>
+  return (
     <BrowserRouter>
       <Routes>
-        <Route index element={Home} />
-        <Route path="*" element={NotFound} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-  </>
+  );
 }
+
+export default App;

@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Project 1",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, odit.",
-        image: "/public/projects/project1.jpg",
+        image: "/projects/project1.jpg",
         tags: ["React", "TailwindCSS", "Supabase"],
         demoUrl: "#",
         githubUrl: "#"
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "Project 2",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, odit.",
-        image: "/public/projects/project2.jpg",
+        image: "/projects/project2.jpg",
         tags: ["Typescript", "D3.js", "Next.js"],
         demoUrl: "#",
         githubUrl: "#"
@@ -23,7 +23,7 @@ const projects = [
         id: 3,
         title: "Project 3",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, odit.",
-        image: "/public/projects/project3.jpg",
+        image: "/projects/project3.jpg",
         tags: ["Node.JS", "Express", "React", "MySQL"],
         demoUrl: "#",
         githubUrl: "#"
